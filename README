@@ -1,3 +1,5 @@
+This NodeJS project count words in large text and lists top appearing words and pairs of words.
+
 Instructions:
 1) change path to text file in index.js here:
 var instream = fs.createReadStream('PATH_TO_TEXT_FILE');

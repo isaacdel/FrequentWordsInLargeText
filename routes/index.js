@@ -43,7 +43,7 @@ router.get('/', function(req, res, next) {
     var pairsArray = getTopResults(pairWordsFrequencyMap, true);
 
     res.render('index',
-        { title: 'The League - Text processor',
+        { title: 'Text processor',
           NumberOfWords: numOfWords,
           NumberOfUniqueWords: wordsFrequencyMap.length,
           TopWords: JSON.stringify(array, null ,2),
