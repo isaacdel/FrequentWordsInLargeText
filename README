@@ -1,0 +1,7 @@
+Instructions:
+1) change path to text file in index.js here:
+var instream = fs.createReadStream('PATH_TO_TEXT_FILE');
+2) npm install
+3) run app
+4) hit localhost to view results, default will be:
+http://localhost:3000/
